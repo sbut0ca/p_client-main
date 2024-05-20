@@ -1,0 +1,6 @@
+.loadingContainer {
+    display: flex;
+    margin: auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+}

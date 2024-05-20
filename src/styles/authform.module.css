@@ -1,0 +1,15 @@
+.wrapper {
+    padding: 32px;
+}
+
+.button {
+    margin-top: 24px !important;
+    padding: 4px !important;
+    background: #333 !important;
+}
+
+.header {
+    text-align: center;
+    font-size: 24px;
+    padding: 12px;
+}

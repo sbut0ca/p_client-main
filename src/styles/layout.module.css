@@ -1,0 +1,91 @@
+.horizontalPanel {
+    justify-content: space-between;
+    padding: 10px 5px;
+    margin: 5px 10px;
+    border-bottom: 2px solid #ccc;
+}
+
+.pageName {
+
+}
+
+.userName {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.logoutButton {
+    margin-left: 5px;
+    font-weight: 600 !important;
+}
+
+.leftMenu {
+    border-right: 2px solid #ccc;
+    height: 90vh;
+    padding-top: 10vh;
+    padding-right: 15px;
+}
+
+.pageContent {
+    margin-top: 15px;
+}
+
+.navCard {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    vertical-align: middle;
+
+    color: #444;
+
+    border: 1px solid #333;
+    border-radius: 10px;
+
+    padding: 10px 15px;
+
+    cursor: pointer;
+    transition: .1s;
+}
+
+.navCard > a {
+    color: #444;
+    text-decoration: none;
+}
+
+.navCard:hover a {
+    color: #fff !important;
+}
+
+.navCard:hover {
+    background: #444;
+    color: #fff;
+}
+
+.navCardActive {
+    background: #222;
+    color: #fff;
+}
+
+.displayContent {
+    overflow: auto;
+    height: 90vh;
+}
+
+.profile {
+    margin-right: 5px;
+    top: 2px;
+    border-radius: 5px;
+    padding: 2px;
+    padding-inline: 5px;
+    border: 1px solid;
+
+    cursor: pointer;
+    transition: .1s;
+}
+
+.profile:hover {
+    background: #444;
+    color: #fff;
+}
